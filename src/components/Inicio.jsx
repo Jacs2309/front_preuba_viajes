@@ -38,14 +38,14 @@ function Inicio() {
     return (
         <>
         <div style={{ textAlign: "center",  color:"black"}}>
-            <p>Bienvendio a viajes JC la mejor solucion para sus viajes.<br/>
-            Las tarifas de nuestros vaijes varian en funcion del numer de pasajeros.<br/>
-            Pued calcular el costo para su viaje acontuniacion.</p>
+            <p>Bienvendio a viajes NJ la mejor solucion para sus viajes.<br/>
+            Las tarifas de nuestros vaijes varían en funcion del numero de pasajeros.<br/>
+            Puede calcular el costo para su viaje acontuniacion.</p>
         </div>
         <main>
             <section>
                 <form className="info" onSubmit={handleClick} >
-                    <p>Introduzca el numero de Pasajetos <input type="number" name="np" value={calculo.np} onChange={handleChange}/></p>
+                    <p>Introduzca el numero de Pasajeros <input type="number" name="np" value={calculo.np} onChange={handleChange}/></p>
                     <p>Introduzcal el lugar de destino <input type="text" name="dest" value={calculo.dest} onChange={handleChange}/></p>
                     <input className="boton" type="submit" value="Calcular" onClick={handleClick}/>
                 </form>

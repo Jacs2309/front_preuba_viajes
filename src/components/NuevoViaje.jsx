@@ -63,7 +63,7 @@ const NuevoViaje =()=>{
                     <label htmlFor="id">Numero de viaje </label>
                     <input type="number" name="id" id="id" placeholder="numero de viaje" value={datosViaje.id} onChange={handleChange}/><br/><br/>
 
-                    <label htmlFor="destino">Origen: </label>
+                    <label htmlFor="destino">Destino: </label>
                     <input type="text" name="destino" id="destino" placeholder="destino" value={datosViaje.destino} onChange={handleChange}/><br/><br/>
 
                     <label htmlFor="pasajeros">Numero de pasajeros </label>

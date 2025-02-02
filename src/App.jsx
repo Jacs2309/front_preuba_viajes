@@ -13,7 +13,7 @@ function App() {
     <>
     <BrowserRouter>
       <header>
-        <h2>Transportes JC</h2>
+        <h2>Transportes NJ</h2>
         <h3>Lo mejor para organizar viajes </h3>
         <Nav/>
       </header>

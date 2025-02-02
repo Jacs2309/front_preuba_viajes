@@ -49,7 +49,7 @@ function ListarV() {
                         <thead>
                             <tr>
                                 <th>ID</th>
-                                <th>Origen</th>
+                                <th>Destino</th>
                                 <th>Pasajeros</th>
                                 <th>Tarifa</th>
                                 <th>Acciones</th>
