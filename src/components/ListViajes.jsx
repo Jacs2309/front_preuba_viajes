@@ -9,7 +9,7 @@ function ListarV() {
 
     useEffect(() => {
     axios
-        .get("http://localhost:3030/api/viajes") 
+        .get("https://back-prueba-viajes.vercel.app/api/viajes") 
         .then((response) => {
         setViajes(response.data); 
     })
@@ -22,7 +22,7 @@ function ListarV() {
     const eliminarViaje = (id) => {
         if (window.confirm("¿Estás seguro de que deseas eliminar este viaje?")) {
           axios
-            .delete(`http://localhost:3030/api/viajes/${id}`)
+            .delete(`https://back-prueba-viajes.vercel.app/api/viajes/${id}`)
             .then((response) => {
               alert("Viaje eliminado con éxito");
               // Actualizar la lista de clientes

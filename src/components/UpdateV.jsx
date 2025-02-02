@@ -13,7 +13,7 @@ const UpdateViaje = () => {
 
     // Cargar datos del viaje
     useEffect(() => {
-        axios.get(`http://localhost:3030/api/viajes/${id}`)
+        axios.get(`https://back-prueba-viajes.vercel.app/api/viajes/${id}`)
             .then((response) => {
                 setViaje(response.data);
             })
@@ -28,7 +28,7 @@ const UpdateViaje = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        axios.put(`http://localhost:3030/api/viajes/${id}`, viaje)
+        axios.put(`https://back-prueba-viajes.vercel.app/api/viajes/${id}`, viaje)
             .then(() => {
                 alert("Viaje actualizado con éxito");
             })

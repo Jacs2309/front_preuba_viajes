@@ -40,7 +40,7 @@ const NuevoViaje =()=>{
         console.log("Datos enviados:", datosViaje);
 
         axios
-          .post("http://localhost:3030/api/viajes", datosViaje, {
+          .post("https://back-prueba-viajes.vercel.app/api/viajes", datosViaje, {
             headers: {
               'Content-Type': 'application/json'
             }
